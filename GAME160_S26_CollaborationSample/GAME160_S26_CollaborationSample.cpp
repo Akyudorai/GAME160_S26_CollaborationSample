@@ -19,10 +19,14 @@ int main()
     srand(time(0));
     std::cout << ((rand() % 20) + 1) << std::endl; // random number between 1 and 20
 
-    int health = 10;
-    int damage = 7;
-    health -= damage;
-    std::cout << "Health Left:" << damage << "\n";
+    int health = 100;
+    while (health > 0) {
+        int damage = rand() % 21;
+        std::cout << "Damage dealt: " << damage;
+        health -= damage;
+        if (health < 0) health = 0;
+        std::cout << " // Health Left: " << health << "\n";
+    }
 }
 
 // TEST COMMENT
