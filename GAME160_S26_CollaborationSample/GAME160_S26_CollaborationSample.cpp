@@ -9,16 +9,16 @@ int main()
 
     std::cout << "Hello whoever you are.\n";
     
-
-
-
-
+    std::cout << "How much wood could a wood chuck chuck.\n";
 
     int i;
     i = sqrt(3 * 3 + 4 * 4);
     if (i == 5) {
-        std::cout << "hello dan!";
+        std::cout << "hello dan!\n";
     }
+
+    srand(time(0));
+    std::cout << (rand() % 200) << std::endl;
 }
 
 // TEST COMMENT
