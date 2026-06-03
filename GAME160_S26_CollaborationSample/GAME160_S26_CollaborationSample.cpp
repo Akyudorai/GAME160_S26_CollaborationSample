@@ -6,6 +6,19 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
+    std::cout << "Hello whoever you are.\n";
+    
+
+
+
+
+
+    int i;
+    i = sqrt(3 * 3 + 4 * 4);
+    if (i == 5) {
+        std::cout << "hello dan!";
+    }
 }
 
 // TEST COMMENT
