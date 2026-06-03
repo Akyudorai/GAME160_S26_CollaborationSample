@@ -13,21 +13,16 @@ int main()
 
     int i;
     i = sqrt(3 * 3 + 4 * 4);
-    if (i == 5) {
+    if (i == 5)
         std::cout << "hello dan!\n";
-    }
 
     srand(time(0));
+    std::cout << ((rand() % 20) + 1) << std::endl; // random number between 1 and 20
 
-    int health = 100;
-    
-    while (health > 0) {
-        int damage = rand() % 20;
-        std::cout << "Damage dealt: " << damage;
-        health -= damage;
-        if (health < 0) health = 0;
-        std::cout << " // Health Left: " << health << "\n";
-    }
+    int health = 10;
+    int damage = 7;
+    health -= damage;
+    std::cout << "Health Left:" << damage << "\n";
 }
 
 // TEST COMMENT
