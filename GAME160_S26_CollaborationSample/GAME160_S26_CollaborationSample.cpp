@@ -16,6 +16,11 @@ int main()
     if (i == 5) {
         std::cout << "hello dan!";
     }
+
+    int health = 10;
+    int damage = 7;
+    health -= damage;
+    std::cout << "Health Left:" << damage << "\n";
 }
 
 // TEST COMMENT
