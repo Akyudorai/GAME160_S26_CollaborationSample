@@ -14,8 +14,11 @@ int main()
     int i;
     i = sqrt(3 * 3 + 4 * 4);
     if (i == 5) {
-        std::cout << "hello dan!";
+        std::cout << "hello dan!\n";
     }
+
+    srand(time(0));
+    std::cout << (rand() % 200) << std::endl;
 }
 
 // TEST COMMENT
