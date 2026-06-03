@@ -19,6 +19,7 @@ int main()
 
     srand(time(0));
     std::cout << (rand() % 200) << std::endl;
+
     int health = 10;
     int damage = 7;
     health -= damage;
