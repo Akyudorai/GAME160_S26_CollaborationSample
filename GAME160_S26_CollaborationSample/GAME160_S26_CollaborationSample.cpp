@@ -17,8 +17,7 @@ int main()
         std::cout << "hello dan!\n";
 
     srand(time(0));
-	for (int i = 0; i < 200; i++)
-        std::cout << ((rand() % 20) + 1) << std::endl; // random number between 1 and 20
+    std::cout << ((rand() % 20) + 1) << std::endl; // random number between 1 and 20
 
     int health = 10;
     int damage = 7;
