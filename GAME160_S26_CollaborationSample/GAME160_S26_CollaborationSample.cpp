@@ -13,12 +13,12 @@ int main()
 
     int i;
     i = sqrt(3 * 3 + 4 * 4);
-    if (i == 5) {
+    if (i == 5)
         std::cout << "hello dan!\n";
-    }
 
     srand(time(0));
-    std::cout << (rand() % 6) << std::endl;
+	for (int i = 0; i < 200; i++)
+        std::cout << ((rand() % 20) + 1) << std::endl; // random number between 1 and 20
 
     int health = 10;
     int damage = 7;
