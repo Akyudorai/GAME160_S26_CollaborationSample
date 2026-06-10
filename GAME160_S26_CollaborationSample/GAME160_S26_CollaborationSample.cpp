@@ -23,6 +23,8 @@ int main()
     int damage = 7;
     health -= damage;
     std::cout << "Health Left:" << damage << "\n";
+
+    std::cout << "Message for update (git commit example" << std::endl;
 }
 
 // TEST COMMENT
